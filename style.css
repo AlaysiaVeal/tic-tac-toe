@@ -1,0 +1,62 @@
+body {
+  background-color: papayawhip;
+}
+h1 {
+  text-align: center;
+  color: palevioletred;
+}
+.title {
+  font-size: 50px;
+}
+#scores {
+  text-align: right;
+  margin-right: 20px;
+  color: white;
+}
+.game-board {
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  margin: 0 auto;
+  color: aliceblue;
+  border: 6px solid palevioletred;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3,1fr);
+}
+
+.box {
+  border: 6px solid palevioletred;
+  border-radius: 2px;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+}
+.game-restart {
+  margin: 0 auto;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  background-color: pink;
+  border: 2px solid palevioletred;
+  color: aliceblue;
+  font-weight: lighter;
+  display: flex;
+}
+.status-display {
+  color: pink;
+  font-size: 30px;
+  text-align: center;
+}
+.game-winner {
+  color: palevioletred;
+  font-size: 30px;
+  text-align: center;
+}
+.winner {
+  font-size: 40px;
+}
