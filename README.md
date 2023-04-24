@@ -14,4 +14,4 @@
 
 ## **_Notes_**
 
-- I had to create a new git repo a result of losing the original git repo (a hw assignment) I uploaded this with so I dont have any commits.
+- I had to create a new git repo as a result of losing the original git repo (a hw assignment) I uploaded this with so I dont have any commits.
